@@ -29,7 +29,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/fc33bdc8f2.js" crossorigin="anonymous"></script>
-    <title>Polyhouse</title>
+    <title>Growth Chamber</title>
     <style>
       * {
         font-family: "Poppins";
@@ -103,7 +103,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="staticBackdropLabel">
-              Create Polyhouse
+              Create Chamber
             </h5>
             <button
               type="button"
@@ -117,7 +117,7 @@
               <input
                 type="text"
                 class="form-control"
-                placeholder="Name of Polyhouse"
+                placeholder="Name of Chamber"
                 ng-model="name"
               />
             </div>
@@ -126,17 +126,11 @@
                 name=""
                 id=""
                 class="form-control"
-                placeholder="Enter Polyhouse Descirption"
+                placeholder="Enter Chamber Description"
                 ng-model="desc"
               ></textarea>
             </div>
-            <!-- <div class="mb-3">
-              <label for="formFile" class="form-label"
-                >Any photo For Polyhouse
-                <span class="text-muted">(optional)</span></label
-              >
-              <input class="form-control" type="file" id="formFile" />
-            </div> -->
+          
           </div>
           <div class="modal-footer">
             <button
@@ -174,7 +168,7 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="staticBackdropLabel">
-              Edit Polyhouse
+              Edit Chamber
             </h5>
             <button
               type="button"
@@ -198,12 +192,12 @@
                 name=""
                 id=""
                 class="form-control"
-                placeholder="Enter Polyhouse Descirption"
+                placeholder="Enter Chamber Description"
                 ng-model="editdesc"
               ></textarea>
             </div>
             <div class="mb-3 p-2">
-              <span class="text-muted"><small>Polyhouse Id:- {{editid}}</small></span>
+              <span class="text-muted"><small>Chamber Id:- {{editid}}</small></span>
             </div>
             
           </div>
